@@ -1,0 +1,144 @@
+.s1{
+    width: 100%; 
+    border: 1px;
+    box-shadow: 5px 5px 5px grey;
+  
+ }
+ h1{
+     margin-left: 140px;
+ }
+ h1:hover{
+     text-shadow: 2px 2px 2px grey;
+ }
+ .a1{
+     color: aqua;
+    
+ }
+ .aa{
+     display: flex;
+     justify-content: end;
+     margin-right: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 40px;
+    text-decoration: none;
+ }
+ .container{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-left: 120px;
+   
+ }
+ .box{
+     border: 1px solid;
+     height: 200px;
+     width: 250px;
+     line-height: 15px;
+     margin: 30px;
+     border-radius: 5px;
+     background-color: white;
+     
+ }
+ #super{
+     text-decoration: line-through;
+ }
+ h4{
+     margin-left: 10px;
+     color: aqua;
+ }
+ .box:hover{
+     box-shadow: 0px 0px 10px 10px gray;
+ }
+.parent{
+  filter:blur(3px);
+}
+.child{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: -350px;
+    margin: auto;
+    padding: 10px;
+   
+}
+.bg{
+    background-color: whitesmoke;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 20px;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+body{
+    border: 1px solid;
+}
+
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+    .s1{
+        height: 100px;
+       display: inline;
+     }
+  
+     h1{
+       margin-left: 25px;
+    }
+    img{
+       height: 45px;
+       width: 45px;
+    }
+     .aa{
+       display: flex;
+       justify-content: center;
+       padding: 40px;
+       margin:auto
+     }
+     .container{
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: auto;
+     
+   }
+   .box{
+       border: 1px ;
+       height: 230px;
+       width: 300px;
+       line-height: 15px;
+       margin: 15px auto;
+       border-radius: 5px;
+       background-color: white;
+       padding: 10px;
+       font-size: 22px;
+   }
+   .label{
+       opacity: 0.3;
+       text-decoration: line-through;
+   }
+   h4{
+       font-size: 22px;
+   }
+   .child{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: -1290px;
+    margin: auto;
+    padding: 10px;
+   }
+}
